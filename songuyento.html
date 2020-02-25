@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>số nguyên tố</title>
+</head>
+<body>
+<script>
+    let number = parseInt(prompt("viết số vào đây để kt xem số nguyên tố k?"));
+    let i;
+    for (i = 2;i < (number / 2);i++){
+        if (number % i === 0){
+            alert("không phải là số nguyên tố");
+            break;
+        }
+        else{
+            alert("là số nguyên tố");
+            break;
+        }
+    }
+</script>
+</body>
+</html>

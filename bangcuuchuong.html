@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bangcuuchuong</title>
+</head>
+<body>
+<script>
+    let html = "<table width='300' cellspacing='0' cellpadding='3' border='1'>"
+    for ( let i = 1 ; i < 10 ; i++){
+        html += '<tr>';
+        for (let j = 1 ; j < 10 ; j++){
+            html += '<td>';
+            html += j + "x" + i + "=" + i * j;
+            html += '</td>';
+        }
+        html += '</tr>';
+    }
+    html += "</table>";
+    document.write(html)
+</script>
+</body>
+</html>
